@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F8FF;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #2F4F4F;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    gap: 2em;
+}
+
+.box a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #2F4F4F;
+    transition: background-color 0.3s ease;
+}
+
+.box a:hover {
+    background-color: rgb(96 139 168 / 0.5);
+}
+
+/* Main Content Layout */
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1em;
+    color: #555;
+    padding: 10px 0;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* List Styling */
+ul,
+ol {
+    padding-left: 40px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+ul li,
+ol li {
+    font-size: 1.1em;
+    padding: 5px 0;
+    transition: transform 0.2s ease;
+    list-style-position: outside;
+}
+
+ul li:hover,
+ol li:hover {
+    transform: translateX(5px);
+    color: #1e90ff;
+}
+
+
+.contact-button {
+    display: inline-block;
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact-button:hover {
+    background-color: #0077cc;
+    transform: scale(1.05);
+}
+
+/* Contact Card */
+.contact-card {
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box a {
+        width: 100%;
+        text-align: center;
+    }
+
+    main {
+        width: 90%;
+        margin: 30px auto;
+        padding: 15px;
+    }
+
+    ul,
+    ol {
+        padding-left: 20px;
+    }
+}
