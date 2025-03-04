@@ -14,7 +14,7 @@ h3 {
 }
 
 header {
-    background-color: #1E90FF;
+    background-color: #4169E1;
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -37,12 +37,12 @@ nav {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #1E90FF;
+    background-color: #4169E1;
     transition: background-color 0.3s ease;
 }
 
 .box a:hover {
-    background-color: rgb(96 139 168 / 0.5);
+    background-color: #0000CD;
 }
 
 main {
