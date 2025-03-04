@@ -134,10 +134,6 @@ ol li:hover {
 }
 
 footer {
-    text-align: center;
-}
-
-.footer-text {
     font-style: italic;
-    opacity: 0.8;
+    text-align: center;
 }
