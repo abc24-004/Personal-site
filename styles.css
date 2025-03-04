@@ -132,3 +132,12 @@ ol li:hover {
         padding-left: 20px;
     }
 }
+
+footer {
+    text-align: center;
+}
+
+.footer-text {
+    font-style: italic;
+    opacity: 0.8;
+}
