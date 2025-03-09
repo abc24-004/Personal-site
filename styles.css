@@ -1,10 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F0F8FF;
+    /*background-color: #F0F8FF;*/
     margin: 0;
     padding: 0;
     color: #333;
     line-height: 1.6;
+    background-image: url('blue-background-pic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1,
@@ -14,7 +18,7 @@ h3 {
 }
 
 header {
-    background-color: #4169E1;
+    background-color: #4682B4;
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -37,7 +41,7 @@ nav {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #4169E1;
+    background-color: #4682B4;
     transition: background-color 0.3s ease;
 }
 
@@ -87,7 +91,7 @@ ol li:hover {
 .contact-button {
     display: inline-block;
     background-color: #1e90ff;
-    color: white;
+    color: ;
     padding: 10px 20px;
     margin-top: 10px;
     text-decoration: none;
@@ -131,4 +135,17 @@ ol li:hover {
     ol {
         padding-left: 20px;
     }
+}
+
+footer {
+    font-style: italic;
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
